@@ -1,0 +1,15 @@
+{
+  "name": "ai-whatsapp-assistant",
+  "version": "1.0.0",
+  "description": "AI-powered WhatsApp assistant using OpenAI and Meta WhatsApp Cloud API",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node src/server.js"
+  },
+  "dependencies": {
+    "dotenv": "^17.2.1",
+    "express": "^5.1.0",
+    "openai": "^5.12.2"
+  }
+}
